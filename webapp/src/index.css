@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body, html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.app-primary-color{
+    color: blue;
+}
+
+nav, .app-primary-bg-color {
+    background-color: rgb(61, 85, 223);
+}
+
+.card-body{
+    padding: 0;
+}
+
+.border-bottom-1{
+    border-bottom: 1px soild lightgray;
+}
+
+.card-subtitle {
+    margin-top: 1rem;
+} 
+
+.navbar-nav .nav-link, .navbar-toggler{
+    color:white;
+    border-color: white;
+
+}
